@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ship Creator Form</h1>
+    <form action="/process" method="post"></form>
+    <div>
+        <label for="First_name">First Name:</label>
+        <input type="text" name="First_name" id="First_name"
+        placeholder="First Name">
+    </div>
+    <div>
+        <label for="Last_name">Last Name:</label>
+        <input type="text" name="Last_name" id="Last_name"
+        placeholder="Last Name">
+    </div>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email"
+        placeholder="Email">
+    </div>
+    <div>
+        <label for="Password">Password:</label>
+        <input type="password" name="password" id="password"
+        placeholder="Password">
+    </div>
+    <div>
+        <label for="Confirm_Password">Confirm Password</label>
+        <input type="password" name="Confirm_password" id="Confirm_password"
+        placeholder="Confirm Password">
+    </div>
+    <div>
+        <label for="Birthday">Birthday:</label>
+        <input type="date" name="Birthday" id="Birthday">
+    </div>
+    <div>
+        <p>Planitary race:</p>
+        <input type="radio" name="Earth" id="Earth">
+        <label for="Eath">Earthling</label>
+        <input type="radio" name="Mars" id="Mars">
+        <label for="Mars">Martian</label>
+        <input type="radio" name="Belter" id="Belter">
+        <label for="Belter">Belter</label>
+        <input type="radio" name="No_Answer" id="No_Answer">
+        <label for="No_Answer">I prefer not to answer</label>
+    </div>
+    <div>
+        <p>A short description about myself</p>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="Favorite_Planet">Favorite Planet:</label>
+        <select name="Favorite Planet" id="Favorite_Planet"> 
+            <option value="Earth">Eath</option>
+            <option value="Mars">Mars</option>
+            <option value="X">X</option>
+            <option value="Ceres Station">Ceres Station</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="Planitary_updates" id="Planitary_updates">
+        <label for="Planitary_updates">Yes, Keep me updated with Planitary information</label>
+    </div>
+    <input type="submit" value="Submit Form">
+</body>
+</html>
