@@ -1,2 +1,2 @@
 # Registration_Form
-Using only HTML I Build a registration form
+Using only HTML and CSS I Build a registration form
